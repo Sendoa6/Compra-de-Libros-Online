@@ -32,7 +32,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-input[type="submit"] {
+button {
   font-size: 14px;
   padding: 6px 12px;
   width: 200px;
