@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de compra</title>
+</head>
+<body>
+
+    <p><strong>USUARIO:</strong> Marta Bilbao Lopez</p>
+
+    <h2 style="text-align:center;">EL ESTADO DE SU CARRITO DE COMPRA ES</h2>
+
+    <form action="SrvCarrito" method="post">
+        <table border="0" align="center" cellpadding="8">
+            <tr>
+                <th style="color:red;">ELIMINAR</th>
+                <th>Cantidad</th>
+                <th>ISBN</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Categoría</th>
+                <th>Editorial</th>
+                <th>PRECIO<br>UNIDAD</th>
+                <th>PRECIO<br>TOTAL</th>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <input type="checkbox" name="eliminar" value="11111111111">
+                </td>
+                <td align="center">2</td>
+                <td>11111111111</td>
+                <td>Fundación y Tierra</td>
+                <td>Isaac Asimov</td>
+                <td>Ciencia ficción</td>
+                <td>Planeta</td>
+                <td align="right">6.0</td>
+                <td align="right">12.0</td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <input type="checkbox" name="eliminar" value="11111111152">
+                </td>
+                <td align="center">5</td>
+                <td>11111111152</td>
+                <td>Diez negritos</td>
+                <td>Agatha Christie</td>
+                <td>Suspense</td>
+                <td>Zugarto</td>
+                <td align="right">11.0</td>
+                <td align="right">55.0</td>
+            </tr>
+        </table>
+
+        <p style="text-align:center; font-weight:bold;">
+            TOTAL COMPRA: 67.0 EUROS
+        </p>
+
+        <div style="text-align:center;">
+            <input type="submit" name="accion" value="Realizar Compra">
+            <input type="submit" name="accion" value="Quitar del carrito">
+            <input type="submit" name="accion" value="Seleccionar mas libros">
+        </div>
+    </form>
+
+</body>
+</html>
