@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Carrito de compra</title>
+    <link rel="stylesheet" href="../Css/estilos.css">
 </head>
 <body>
 
@@ -10,7 +11,7 @@
 
     <h2 style="text-align:center;">EL ESTADO DE SU CARRITO DE COMPRA ES</h2>
 
-    <form action="SrvCarrito" method="post">
+    <form name="Carrito" method="post">
         <table border="0" align="center" cellpadding="8">
             <tr>
                 <th style="color:red;">ELIMINAR</th>
@@ -56,12 +57,12 @@
         <p style="text-align:center; font-weight:bold;">
             TOTAL COMPRA: 67.0 EUROS
         </p>
+<div style="text-align:center;">
+    <input type="submit" formaction="confirmacion.html" value="Realizar Compra">
+    <input type="submit" formaction="quitarCarrito.html" value="Quitar del carrito">
+    <input type="submit" formaction="resultadosBusqueda.html" value="Seleccionar más libros">
+</div>
 
-        <div style="text-align:center;">
-            <input type="submit" name="accion" value="Realizar Compra">
-            <input type="submit" name="accion" value="Quitar del carrito">
-            <input type="submit" name="accion" value="Seleccionar mas libros">
-        </div>
     </form>
 
 </body>
