@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.usuario {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.contenedor {
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+  font-size: 14px;
+  padding: 6px 12px;
+  width: 200px;
+}
