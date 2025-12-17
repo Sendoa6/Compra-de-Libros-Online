@@ -1,0 +1,83 @@
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        margin: 30px;
+        color: black;
+    }
+
+    /* Usuario arriba a la izquierda */
+    .usuario {
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    /* Contenedor principal centrado a la derecha */
+    .contenedor {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .contenido {
+        width: 400px;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    h1 {
+        font-size: 44px;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    table {
+        margin: 0 auto 30px auto;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 6px 10px;
+        text-align: center;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    th.red {
+        color: red;
+    }
+
+    .total {
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    /* Botones clásicos */
+    input[type="submit"], button {
+        width: 220px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 15px;
+        background-color: #f2f2f2;
+        border: 1px solid #777;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    button:hover {
+        background-color: #e0e0e0;
+    }
+
