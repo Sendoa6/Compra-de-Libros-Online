@@ -1,0 +1,49 @@
+body {
+    font-family: serif;
+    background-color: white;
+    text-align: center;
+}
+
+.usuario {
+    text-align: left;
+    margin: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.contenedor {
+    width: 400px;
+    margin: 40px auto;
+}
+
+.fila {
+    margin: 15px 0;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"], select {
+    width: 180px;
+}
+
+.radios {
+    text-align: left;
+    margin-left: 90px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 15px;
+}
